@@ -1,38 +1,101 @@
 .App {
   text-align: center;
+  color: #414141;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-control {
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-control label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #858585;
+  font-style: italic;
+}
+.form-control input {
+  width: 100%;
+  border: none;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.form-control input:focus {
+  outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form-control select {
+  border: none;
+  padding: 0.2rem 1rem;
+  width: 165px;
+  border: 1.5px solid #ccc;
+  border-radius: 2px;
+}
+.form-control select:focus {
+  outline: none;
+}
+
+.form-control textarea {
+  min-width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+.form-control textarea:focus {
+  outline: none;
+}
+.action {
+  text-align: center;
+}
+
+.action button {
+  padding: 0.8rem 1rem;
   color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.primary {
+  background-color: #0078aa;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.action button.btn-add {
+  background-color: #83bd75;
+}
+.action button.btn-add:hover {
+  background-color: #94cf86;
+}
+
+.action button:disabled {
+  cursor: wait;
+  background-color: #ccc;
+}
+
+.link,
+.link a {
+  color: #4b7be5;
+  border-bottom: 1px solid #4b7be5;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover,
+.link a:hover {
+  border-bottom: 1px solid #7599e7;
+  color: #7599e7;
+}
+select {
+  border: none;
+  border: 1px solid #a1a1a1;
+  border-radius: 2px;
+}
+select:focus {
+  outline: none;
 }

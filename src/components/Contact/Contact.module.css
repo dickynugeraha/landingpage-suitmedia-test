@@ -1,0 +1,25 @@
+.contact {
+  padding: 10rem 30%;
+}
+.contact h1 {
+  margin-bottom: 30px;
+}
+.contact .action {
+  width: 100%;
+}
+.contact button {
+  width: 100%;
+}
+p.invalid {
+  color: red;
+  text-align: left;
+}
+input.invalid,
+textarea.invalid {
+  border-color: red;
+}
+@media screen and (max-width: 800px) {
+  .contact {
+    padding: 10rem 20%;
+  }
+}

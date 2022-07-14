@@ -1,0 +1,19 @@
+.desc {
+  margin-top: 1rem;
+  background-image: url("../../assets//bg.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.desc div {
+  position: relative;
+  left: 12rem;
+  top: 35rem;
+  color: #f1f1f1;
+  background-color: rgb(0, 0, 0, 0.4);
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
