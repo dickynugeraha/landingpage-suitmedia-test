@@ -23,7 +23,6 @@
   font-size: 1.8rem;
   font-weight: bold;
   font-style: italic;
-
   cursor: pointer;
   text-align: center;
 }
@@ -35,7 +34,7 @@
 }
 
 .nav-items li {
-  margin: 0 1rem;
+  margin: 0 0.8rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   cursor: pointer;

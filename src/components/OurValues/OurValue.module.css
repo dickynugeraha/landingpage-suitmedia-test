@@ -1,7 +1,5 @@
 .our-value {
   margin-top: 5rem;
-  /* max-width: 70rem;
-  text-align: center; */
 }
 .wrap {
   display: flex;
@@ -16,6 +14,14 @@
   margin-right: 40px;
   margin-top: 50px;
   color: #f0f0f0;
+  transition: all 0.3s;
+}
+.box:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 21px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 21px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 21px -14px rgba(0, 0, 0, 0.75);
 }
 .box h3 {
   margin-bottom: 10px;

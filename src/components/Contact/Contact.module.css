@@ -11,12 +11,12 @@
   width: 100%;
 }
 p.invalid {
-  color: red;
+  color: rgba(235, 71, 71, 0.8);
   text-align: left;
 }
 input.invalid,
 textarea.invalid {
-  border-color: red;
+  border-color: rgba(235, 71, 71, 0.8);
 }
 @media screen and (max-width: 800px) {
   .contact {
